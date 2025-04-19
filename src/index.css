@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.calculator {
+  width: 320px;
+}
+
+.calculator-button {
+  font-size: 1.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.calculator-button.operator {
+  background-color: #f97316;
+}
+
+.calculator-button.clear {
+  background-color: #dc2626;
+}
+
+.calculator-button.equals {
+  background-color: #22c55e;
+}
